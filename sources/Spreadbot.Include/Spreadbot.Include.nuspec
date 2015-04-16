@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Spreadbot.Include</id>
+    <version>$version$</version>
+    <title>Spreadbot third-party tools</title>
+    <authors>Roman Koshelev</authors>
+    <owners>Krokodev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>no data</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags></tags>
+  </metadata>
+</package>
