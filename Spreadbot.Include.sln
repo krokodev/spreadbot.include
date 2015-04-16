@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{ADCCE65A-882D-45B1-AC24-1C5B09ED5E4F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".deploy", ".deploy", "{ADCCE65A-882D-45B1-AC24-1C5B09ED5E4F}"
 	ProjectSection(SolutionItems) = preProject
 		.deploy\deploy-package.ps1 = .deploy\deploy-package.ps1
 		sources\Spreadbot.Include\Spreadbot.Include.nuspec = sources\Spreadbot.Include\Spreadbot.Include.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spreadbot.Include", "sources\Spreadbot.Include\Spreadbot.Include.csproj", "{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6DC994FB-D1F4-4928-BA04-F84F207CFE31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.MarketplaceWebService", "sources\Amazon.MarketplaceWebService\Amazon.MarketplaceWebService.csproj", "{E75E002F-477A-434A-AD93-357FC6B93B6B}"
 EndProject
