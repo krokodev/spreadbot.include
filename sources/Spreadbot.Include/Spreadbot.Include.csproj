@@ -44,6 +44,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spreadbot.Amazon.Sdk.Mws.Feed\Spreadbot.Amazon.Sdk.Mws.Feed.csproj">
+      <Project>{625d2618-65cc-41d9-9ad8-e81564fccebc}</Project>
+      <Name>Spreadbot.Amazon.Sdk.Mws.Feed</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spreadbot.Amazon.Sdk.Mws.Product\Spreadbot.Amazon.Sdk.Mws.Product.csproj">
+      <Project>{bc955256-9efd-48ab-b516-8b6eb6f4b3d3}</Project>
+      <Name>Spreadbot.Amazon.Sdk.Mws.Product</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
