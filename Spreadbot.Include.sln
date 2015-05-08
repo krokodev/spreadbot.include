@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".deploy", ".deploy", "{ADCC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spreadbot.Include", "sources\Spreadbot.Include\Spreadbot.Include.csproj", "{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon.MarketplaceWebService", "sources\Amazon.MarketplaceWebService\Amazon.MarketplaceWebService.csproj", "{E75E002F-477A-434A-AD93-357FC6B93B6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spreadbot.Amazon.Sdk.Mws.Feed", "sources\Spreadbot.Amazon.Sdk.Mws.Feed\Spreadbot.Amazon.Sdk.Mws.Feed.csproj", "{625D2618-65CC-41D9-9AD8-E81564FCCEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spreadbot.Amazon.Sdk.Mws.Product", "sources\Spreadbot.Amazon.Sdk.Mws.Product\Spreadbot.Amazon.Sdk.Mws.Product.csproj", "{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D6F968-FC6E-4E3C-999A-F44D93F6ADA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E75E002F-477A-434A-AD93-357FC6B93B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E75E002F-477A-434A-AD93-357FC6B93B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E75E002F-477A-434A-AD93-357FC6B93B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E75E002F-477A-434A-AD93-357FC6B93B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625D2618-65CC-41D9-9AD8-E81564FCCEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625D2618-65CC-41D9-9AD8-E81564FCCEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625D2618-65CC-41D9-9AD8-E81564FCCEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625D2618-65CC-41D9-9AD8-E81564FCCEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

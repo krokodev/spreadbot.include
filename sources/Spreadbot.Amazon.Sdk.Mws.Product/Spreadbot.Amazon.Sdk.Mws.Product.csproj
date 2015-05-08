@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC955256-9EFD-48AB-B516-8B6EB6F4B3D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spreadbot.Amazon.Sdk.Mws.Product</RootNamespace>
+    <AssemblyName>Spreadbot.Amazon.Sdk.Mws.Product</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Product\MarketplaceWebServiceProducts\MarketplaceWebServiceProducts.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsClient.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsConfig.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsException.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\MarketplaceWebServiceProductsSample.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProductsMock.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ASINIdentifier.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ASINListType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\AttributeSetList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\Categories.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\CompetitivePriceList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\CompetitivePriceType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\CompetitivePricingType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\Error.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ErrorDetail.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForASINRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForASINResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForASINResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForSKURequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForSKUResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetCompetitivePricingForSKUResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForASINRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForASINResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForASINResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForSKURequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForSKUResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetLowestOfferListingsForSKUResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductForIdRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductForIdResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductForIdResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMatchingProductResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForASINRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForASINResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForASINResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForSKURequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForSKUResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetMyPriceForSKUResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForASINRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForASINResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForASINResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForSKURequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForSKUResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetProductCategoriesForSKUResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetServiceStatusRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetServiceStatusResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\GetServiceStatusResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\IdentifierType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\IdListType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\IMWSResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ListMatchingProductsRequest.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ListMatchingProductsResponse.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ListMatchingProductsResult.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\LowestOfferListingList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\LowestOfferListingType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\Message.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\MessageList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\MoneyType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\NumberOfOfferListingsList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\OfferListingCountType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\OffersList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\OfferType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\Points.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\PriceType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\Product.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ProductList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ProductsUtil.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\QualifiersType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\RelationshipList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ResponseHeaderMetadata.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ResponseMetadata.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\SalesRankList.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\SalesRankType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\SellerSKUIdentifier.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\SellerSKUListType.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ServiceStatusEnum.cs" />
+    <Compile Include="Product\MarketplaceWebServiceProducts\Model\ShippingTimeType.cs" />
+    <Compile Include="Product\runtime-src\AbstractMwsObject.cs" />
+    <Compile Include="Product\runtime-src\IMwsCall.cs" />
+    <Compile Include="Product\runtime-src\IMwsObject.cs" />
+    <Compile Include="Product\runtime-src\IMwsReader.cs" />
+    <Compile Include="Product\runtime-src\IMwsRequestType.cs" />
+    <Compile Include="Product\runtime-src\IMwsWriter.cs" />
+    <Compile Include="Product\runtime-src\MwsAQCall.cs" />
+    <Compile Include="Product\runtime-src\MwsConnection.cs" />
+    <Compile Include="Product\runtime-src\MwsException.cs" />
+    <Compile Include="Product\runtime-src\MwsResponseHeaderMetadata.cs" />
+    <Compile Include="Product\runtime-src\MwsResponseMetadata.cs" />
+    <Compile Include="Product\runtime-src\MwsUtil.cs" />
+    <Compile Include="Product\runtime-src\MwsXmlBuilder.cs" />
+    <Compile Include="Product\runtime-src\MwsXmlReader.cs" />
+    <Compile Include="Product\runtime-src\MwsXmlWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetCompetitivePricingForASINResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetCompetitivePricingForSKUResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetLowestOfferListingsForASINResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetLowestOfferListingsForSKUResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetMatchingProductForIdResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetMatchingProductResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetMyPriceForASINResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetMyPriceForSKUResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetProductCategoriesForASINResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetProductCategoriesForSKUResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.GetServiceStatusResponse.xml" />
+    <Content Include="Product\MarketplaceWebServiceProducts\Mock\MarketplaceWebServiceProducts.Model.ListMatchingProductsResponse.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

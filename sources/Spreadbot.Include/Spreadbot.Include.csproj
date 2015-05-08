@@ -42,12 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Amazon.MarketplaceWebService\Amazon.MarketplaceWebService.csproj">
-      <Project>{e75e002f-477a-434a-ad93-357fc6b93b6b}</Project>
-      <Name>Amazon.MarketplaceWebService</Name>
-    </ProjectReference>
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
